@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- sidebar collapse -->
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      subMaxLevel: 1,  // 左侧导航菜单的最大层级
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: [
+          '/Coursera/',
+          '/Economics/'
+        ], // or 'auto'
+        placeholder: 'Type to search',
+
+        noData: 'No Results!',
+
+        // Headline depth, 1 - 6
+        depth: 2,
+
+        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify@4"></script>
+  <!-- docsify-katex start -->
+  <script src="https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="https://fastly.jsdelivr.net/npm/marked@3"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- docsify-katex end -->
+  <!-- sidebar collapse -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-sidebar-collapse@latest/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Full text search start -->
+  <!-- <script src="//fastly.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Full text search end -->
+  <!-- Language highlighting start -->
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-clike.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-docker.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-yaml.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+  <!-- Language highlighting end -->
+</body>
+</html>

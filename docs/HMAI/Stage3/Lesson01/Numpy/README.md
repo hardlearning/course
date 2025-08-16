@@ -1,0 +1,6 @@
+* [1 Numpy的优势](HMAI/Stage3/Lesson01/Numpy/section1.md)
+* [2 N维数组-ndarray](HMAI/Stage3/Lesson01/Numpy/section2.md)
+* [3 基本操作](HMAI/Stage3/Lesson01/Numpy/section3.md)
+* [4 ndarray运算](HMAI/Stage3/Lesson01/Numpy/section4.md)
+* [5 数组间运算](HMAI/Stage3/Lesson01/Numpy/section5.md)
+* [6 数学：矩阵](HMAI/Stage3/Lesson01/Numpy/section6.md)
