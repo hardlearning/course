@@ -12,6 +12,8 @@
 
 ## Module 2: Package Creation and Uploading
 
+* [8. Creating your first Conan package](lesson08.md)
+
 ## Resource
 
 - [conan-2-essentials](https://academy.jfrog.com/conan-2-essentials)
