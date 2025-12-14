@@ -13,6 +13,7 @@
 ## Module 2: Package Creation and Uploading
 
 * [8. Creating your first Conan package](lesson08.md)
+* [9. Dependencies, generators and building](lesson09.md)
 
 ## Resource
 
