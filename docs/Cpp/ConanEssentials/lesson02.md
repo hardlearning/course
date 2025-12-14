@@ -82,6 +82,7 @@ cmake --build --preset=conan-release
 # If using Windows CMD, run 
 # build\generators\conanrun.bat
 
+# run the application
 ./build/Release/formatter
 
 # To deactivate virtual evironment
@@ -102,3 +103,10 @@ conan install . --build=missing --options="*:shared=True" --conf="tools.env.virt
 - Options: Package-specific feature (e.g., shared or static linkage, specific package options)
   - `conan install . --options="*:shared=True"`
   - `conan install . profile=release-shared`
+
+## The package ID
+
+```
+# show the package ID of different fmt pakcages we've installed
+conan list "fmt/11.0.2:*" --format=compact
+```
