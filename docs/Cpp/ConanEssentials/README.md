@@ -8,6 +8,9 @@
 * [4. Using build tools as Conan packages](lesson04.md)
 * [5. Cross-Compiling Your Applications with Conan: Host and Build Contexts](lesson05.md)
 * [6. Introduction to versioning](lesson06.md)
+* [7. Scanning C++ packages for vulnerabilities using Conan Audit](lesson07.md)
+
+## Module 2: Package Creation and Uploading
 
 ## Resource
 
