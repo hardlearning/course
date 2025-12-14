@@ -6,6 +6,7 @@
 * [2. Building for Multiple Configuration with Conan and CMake Presets](lesson02.md)
 * [3. The Flexibility of Using conanfile.py vs conanfile.txt](lesson03.md)
 * [4. Using build tools as Conan packages](lesson04.md)
+* [5. Cross-Compiling Your Applications with Conan: Host and Build Contexts4. Using build tools as Conan packages](lesson05.md)
 
 ## Resource
 
