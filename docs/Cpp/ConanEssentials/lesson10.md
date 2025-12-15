@@ -18,6 +18,12 @@
         └── example.cpp
 ```
 
+- license.txt
+
+```
+This is the license for the "hello" library.
+```
+
 ## Check the changes in the recipe
 
 - conanfile.py

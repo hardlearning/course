@@ -15,6 +15,7 @@
 * [8. Creating your first Conan package](lesson08.md)
 * [9. Dependencies, generators and building](lesson09.md)
 * [10. The package() and package_info() methods](lesson10.md)
+* [11. Configuring settings and options, and the package_id method](lesson11.md)
 
 ## Resource
 
