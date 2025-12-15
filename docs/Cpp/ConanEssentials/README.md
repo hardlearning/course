@@ -17,6 +17,7 @@
 * [10. The package() and package_info() methods](lesson10.md)
 * [11. Configuring settings and options, and the package_id method](lesson11.md)
 * [12. Testing Conan packages](lesson12.md)
+* [13. Working with Conan Repositories and Uploading Packages](lesson13.md)
 
 ## Resource
 
