@@ -19,6 +19,12 @@
 * [12. Testing Conan packages](lesson12.md)
 * [13. Working with Conan Repositories and Uploading Packages](lesson13.md)
 
+## Module 3: Advanced Package Creation Scenarios
+
+* [14. Creating a recipe for header-only libraries](lesson14.md)
+* [15. Creating a recipe for prebuilt binaries](lesson15.md)
+* [16. Creating Tool Require Packages](lesson16.md)
+
 ## Resource
 
 - [conan-2-essentials](https://academy.jfrog.com/conan-2-essentials)
