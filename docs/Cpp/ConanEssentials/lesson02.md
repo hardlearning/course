@@ -78,7 +78,7 @@ cmake --build --preset=conan-release
 # ./build/Release/formatter this would fail without the conanrun
 
 # To activate virtual evironment
-. build/Release/generators/conanrun.sh
+source build/Release/generators/conanrun.sh
 # If using Windows CMD, run 
 # build\generators\conanrun.bat
 
@@ -86,7 +86,7 @@ cmake --build --preset=conan-release
 ./build/Release/formatter
 
 # To deactivate virtual evironment
-./build/generators/deactivate_conanrun.sh
+source build/Release/generators/deactivate_conanrun.sh
 ```
 
 If using Powershell, add --conf to generate .ps1 files:
