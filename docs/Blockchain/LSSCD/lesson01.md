@@ -1,6 +1,6 @@
 # Section 1: Simple Storage
 
-- SimpleStorage.sol
+- contracts/SimpleStorage.sol
 
 ```
 // SPDX-License-Identifier: MIT
